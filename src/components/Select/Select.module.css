@@ -1,0 +1,17 @@
+.nameSelect {
+    border: none;
+    background-color: transparent;
+    color: whitesmoke;
+    font-family: cursive;
+    font-style: italic;
+    outline: none;
+    font-size: 24px;
+    border-radius: 5px;
+    width: 160px;
+}
+
+.nameSelect option {
+    background-color: rgb(52, 52, 54);
+}
+
+

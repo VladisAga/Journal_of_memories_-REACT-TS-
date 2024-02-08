@@ -1,0 +1,66 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.textArea {
+    outline: none;
+    background-color: transparent;
+    border: 1px solid rgb(52, 52, 54);
+    color: whitesmoke;
+    font-family: 'Source Sans 3', sans-serif;
+    width: 100%;
+    resize: none;
+    padding: 10px;
+}
+
+.invalid {
+    border: 1px solid red;
+    background-color: rgb(120, 48, 48);
+}
+
+.topicAndDel {
+    display: flex;
+}
+
+.form label {
+    color: whitesmoke;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.inputBox {
+    border-bottom: 1px solid rgb(66, 66, 69);
+    display: flex;
+    gap: 50px;
+    padding-bottom: 10px;
+}
+
+.inputBox img {
+    width: 15px;
+}
+
+.bucket {
+    width: 100%;
+}
+
+.delBtn {
+    width: 35px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.delBtn:hover {
+    transform: scale(1.1);
+}
+
+.btnBox {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,22 @@
+.journalAdd {
+    background-color: rgb(50, 50, 53);
+    transition-duration: 0.15s;
+    margin: 20px 0;
+    color: whitesmoke;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 7px;
+}
+
+.journalAdd:hover {
+    background-color: rgb(73, 73, 79);
+}
+
+.plus {
+    font-size: 22px;
+}

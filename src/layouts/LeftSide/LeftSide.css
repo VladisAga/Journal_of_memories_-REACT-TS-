@@ -1,0 +1,6 @@
+.LeftSide {
+    width: calc(40% - 25px);
+    min-width: 343px;
+    display: flex;
+    flex-direction: column;
+}

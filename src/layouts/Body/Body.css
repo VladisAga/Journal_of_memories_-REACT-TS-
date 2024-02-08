@@ -1,0 +1,4 @@
+.body {
+    width: calc(60% - 25px);
+    min-width: 233px;
+}

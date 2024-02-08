@@ -1,0 +1,31 @@
+.listElement {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 8px;
+    margin: 8px 15px;
+}
+
+.firstElement {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.date {
+    color: rgba(232, 232, 232, 0.4);
+    padding-right: 10px;
+    width: 20%;
+    min-width: 82px;
+    text-align: left;
+}
+
+.text {
+    width: 80%;
+    overflow: hidden;
+    text-align: left;
+}
+
+.lastLine {
+    display: flex;
+    width: 100%;
+}

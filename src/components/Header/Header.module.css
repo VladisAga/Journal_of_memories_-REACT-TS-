@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: whitesmoke;
+}
+
+.logoBox {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo {
+    font-family: cursive;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.addName {
+    background-color: rgb(52, 52, 54);
+    width: 60%;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+}
+
+.addName:hover {
+    background-color: rgb(73, 73, 79);
+}
+
+.inputBox {
+    display: flex;
+    height: 26px;
+}
+
+div .addBtn {
+    background-color: rgb(65, 65, 67);
+    border-radius: 0 5px 5px 0;
+    padding: 0 8px;
+    transition-duration: 0.15s;
+}
+
+.addBtn:hover {
+    background-color: rgb(86, 61, 91);
+}
+

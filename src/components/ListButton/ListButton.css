@@ -1,0 +1,15 @@
+.listButton {
+    width: 100%;
+    background-color: rgb(50, 50, 53);
+    transition-duration: 0.15s;
+    color: whitesmoke;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    
+}
+
+.listButton:hover {
+    background-color: rgb(73, 73, 79);
+}
